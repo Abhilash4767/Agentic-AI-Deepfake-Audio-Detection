@@ -8,4 +8,5 @@ data/dataset/real/*
 data/dataset/fake/*
 !**/.gitkeep
 models/*.pt
+!models/deepfake_cnn.pt
 data/jobs.json

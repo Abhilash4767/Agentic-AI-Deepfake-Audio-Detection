@@ -45,7 +45,7 @@ async def root() -> dict:
 def run() -> None:  # `python -m app.main`
     import uvicorn
 
-    uvicorn.run("app.main:app", host=settings.host, port=settings.port, reload=True)
+    uvicorn.run("app.main:app", host=settings.host, port=settings.port, reload=False)
 
 
 if __name__ == "__main__":

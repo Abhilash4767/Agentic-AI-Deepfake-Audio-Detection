@@ -1,0 +1,11 @@
+services:
+  detector:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file: .env
+    volumes:
+      # dataset + trained checkpoints persist on the host
+      - ./data:/srv/data
+      - ./models:/srv/models
+    restart: unless-stopped

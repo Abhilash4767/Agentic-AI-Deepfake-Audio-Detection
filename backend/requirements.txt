@@ -1,0 +1,31 @@
+# --- API layer ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+pydantic==2.10.4
+pydantic-settings==2.7.0
+httpx==0.28.1
+
+# --- audio / DSP ---
+librosa==0.10.2.post1
+soundfile==0.12.1
+audioread==3.0.1
+numpy==1.26.4
+scipy==1.14.1
+
+# --- ML ---
+torch==2.5.1
+torchaudio==2.5.1
+scikit-learn==1.6.0
+joblib==1.4.2
+
+# --- XAI ---
+shap==0.46.0
+lime==0.2.0.1
+matplotlib==3.10.0
+
+# --- optional: Wav2Vec2 embeddings ---
+transformers==4.47.1
+
+# --- dev ---
+pytest==8.3.4

@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/uploads/*
+data/dataset/real/*
+data/dataset/fake/*
+!**/.gitkeep
+models/*.pt
+data/jobs.json
